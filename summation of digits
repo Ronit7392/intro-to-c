@@ -1,0 +1,16 @@
+write a program to input a 3 digit number and display the summation of digit.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("enter a 3 digit number:");
+scanf("%d",&a);
+b=a%10;
+a=a/10;
+c=a%10;
+a=a/10;
+printf("summation of digit is:%d",a+b+c);
+getch();
+}
